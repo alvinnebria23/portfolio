@@ -367,8 +367,8 @@ const projects = [
   {
     tag: "E-Commerce",
     title: "Shopify CMS Platform",
-    desc: "Built a React-based Shopify web application with a Node.js/Express.js backend API, integrating custom Shopify solutions to enhance storefront functionality and improve the customer experience end-to-end.",
-    techs: ["React", "Node.js", "Express.js", "Shopify API"],
+    desc: "Built a React frontend with an Express.js backend for a Shopify app with a drag-and-drop page builder, enabling store owners to fully customize their storefront with rich media such as product images and branded backgrounds. Integrated an autofill system that populates returning customer details at checkout, reducing friction and improving conversion rates.",
+    techs: ["React", "Express.js", "Shopify API"],
   },
   {
     tag: "CRM System",
@@ -393,6 +393,12 @@ const projects = [
     title: "Web Application Refactoring",
     desc: "Refactored and troubleshot existing web applications across multiple stacks, resolving long-standing issues and improving code quality, efficiency, and maintainability.",
     techs: ["React", "Java", "Node.js"],
+  },
+  {
+    tag: "Personal Project · Mobile App",
+    title: "Sapers — Shopee Affiliate Analytics App",
+    desc: "Designed and developed Sapers, a cross-platform mobile app previously published on the App Store and Google Play, integrating the Shopee Affiliate Open API to consolidate and analyze affiliate link performance. Features include earnings filtering by date range, overall income summary, most-clicked link rankings, and peak click time insights — giving affiliates a clear view of their campaign performance in one place. The Express.js backend is deployed on an AWS EC2 instance for reliable and scalable hosting.",
+    techs: ["React Native", "Express.js", "Shopee Affiliate API", "AWS EC2", "App Store", "Google Play"],
   },
 ];
 
