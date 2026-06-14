@@ -395,6 +395,12 @@ const projects = [
     desc: "Refactored and troubleshot existing web applications across multiple stacks, resolving long-standing issues and improving code quality, efficiency, and maintainability.",
     techs: ["React", "Java", "Node.js"],
   },
+  {
+    tag: "Personal Project · Mobile App",
+    title: "Sapers — Shopee Affiliate Analytics App",
+    desc: "Designed and developed Sapers, a cross-platform mobile app previously published on the App Store and Google Play, integrating the Shopee Affiliate Open API to consolidate and analyze affiliate link performance. Features include earnings filtering by date range, overall income summary, most-clicked link rankings, and peak click time insights — giving affiliates a clear view of their campaign performance in one place. The Express.js backend is deployed on an AWS EC2 instance for reliable and scalable hosting.",
+    techs: ["React Native", "Express.js", "Shopee Affiliate API", "AWS EC2", "App Store", "Google Play"],
+  },
 ];
 
 const skillGroups = [
