@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import avatar from "./assets/avatar.jpg";
 
 const styles = `
   @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap');
@@ -367,7 +368,7 @@ const projects = [
   {
     tag: "E-Commerce",
     title: "Shopify CMS Platform",
-    desc: "Built a React-based Shopify web application with a Node.js/Express.js backend API, integrating custom Shopify solutions to enhance storefront functionality and improve the customer experience end-to-end.",
+    desc: "Built a React frontend with an Express.js backend for a Shopify app with a drag-and-drop page builder, enabling store owners to fully customize their storefront with rich media such as product images and branded backgrounds. Integrated an autofill system that populates returning customer details at checkout, reducing friction and improving conversion rates.",
     techs: ["React", "Node.js", "Express.js", "Shopify API"],
   },
   {
@@ -435,6 +436,19 @@ export default function App() {
         <div className="pf-hero-bg" />
         <div className="pf-hero-grid" />
         <div className="pf-hero-content">
+          <img
+            src={avatar}
+            alt="Alvin"
+            style={{
+              width: 96,
+              height: 96,
+              borderRadius: "50%",
+              objectFit: "cover",
+              border: "2px solid rgba(0, 212, 255, 0.4)",
+              marginBottom: "1.5rem",
+            }}
+          />
+
           <p className="pf-eyebrow">Full-Stack Developer</p>
           <h1 className="pf-hero-name">
             Alvin Nebria<span className="pf-cursor" />
@@ -503,8 +517,8 @@ export default function App() {
             Open to new opportunities, collaborations, and interesting projects.
             Feel free to reach out — I'll get back to you promptly.
           </p>
-          <a href="mailto:your@email.com" className="pf-contact-email">
-            your@email.com
+          <a href="mailto:nebriaalvin23@gmail.com" className="pf-contact-email">
+            nebriaalvin23@gmail.com
           </a>
         </div>
       </section>
