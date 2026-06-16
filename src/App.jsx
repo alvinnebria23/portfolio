@@ -368,8 +368,8 @@ const projects = [
   {
     tag: "E-Commerce",
     title: "Shopify CMS Platform",
-    desc: "Built a React frontend with an Express.js backend for a Shopify app with a drag-and-drop page builder, enabling store owners to fully customize their storefront with rich media such as product images and branded backgrounds. Integrated an autofill system that populates returning customer details at checkout, reducing friction and improving conversion rates. Utilized Sequelize ORM for efficient and structured database management.",
-    techs: ["React", "Express.js", "Sequelize ORM", "Shopify API"],
+    desc: "Built a React frontend with an Express.js backend for a Shopify app with a drag-and-drop page builder, enabling store owners to fully customize their storefront with rich media such as product images and branded backgrounds. Utilized the Shopify GraphQL Admin API to retrieve, save, and publish checkout pages, and integrated an autofill system that populates returning customer details at checkout, reducing friction and improving conversion rates. Utilized Sequelize ORM for efficient and structured database management.",
+    techs: ["React", "Express.js", "GraphQL","Sequelize ORM", "Shopify API"],
   },
   {
     tag: "CRM System",
